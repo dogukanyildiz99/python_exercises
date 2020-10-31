@@ -31,18 +31,18 @@ print("Sum of the two numbers you have entered is:",num4+num5)
 #Dogukan
 #<class 'str'>
 #Twinkle, twinkle, little star,
-#	How I wonder what you are!
-#		Up above the world so high,
-#		Like a diamond in the sky.
+#   How I wonder what you are!
+#       Up above the world so high,
+#       Like a diamond in the sky.
 #Twinkle, twinkle, little star,
-#	How I wonder what you are!  
+#   How I wonder what you are!  
 #Number 1 is: 8
 #Number 2 is: 14
 #Multiplication of the two number is: 112
 #Please enter a number: 12
 #<class 'int'>
-#The number you have entered is: 12
-#Please enter another number: 41
+#The number you have entered is: num4
+#Please enter another number: 
 #<class 'int'>
-#The second number you have entered is: 41
-#Sum of the two numbers you have entered is: 53
+#The second number you have entered is: num5 
+#Sum of the two numbers you have entered is: num4 + num5 
