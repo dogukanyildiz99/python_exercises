@@ -14,7 +14,9 @@ print("Student status of ",studentId[0],studentId[1]," is",studentId[3])
 
 #Extracting information from the list
 studentId.pop(2)
-print("Updated information:",studentId)
+
+for info in studentId:
+    print(info)
 
 """ Expected Output
 Our information:  ['Dogukan', 'YILDIZ', 21]
@@ -24,4 +26,6 @@ Surname of the student: YILDIZ
 Age of the student Dogukan  is 21
 Updated information: ['Dogukan', 'YILDIZ', 21, 'Undergraduate']
 Student status of  Dogukan YILDIZ  is Undergraduate
-Updated information: ['Dogukan', 'YILDIZ', 'Undergraduate'] """
+Dogukan
+YILDIZ
+Undergraduate """
