@@ -1,14 +1,16 @@
 #While loop
 number = 0
+endPoint = int(input("Please enter the end point for your list: "))
 print("Element    Number")
 while number < 9:
     print(number+1,"        ",number)
     number += 1
     #number = number +1
-while number < 24:
+while number < endPoint:
     print(number+1,"       ",number)
     number += 1
-"""
+""" Expected Output
+Please enter the end point for your list: 27
 Element    Number
 1          0
 2          1
@@ -34,4 +36,7 @@ Element    Number
 22         21
 23         22
 24         23
+25         24
+26         25
+27         26
 """
