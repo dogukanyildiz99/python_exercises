@@ -1,38 +1,34 @@
-question = "Please enter a licence plate:"
-print(question)
-answer = input()
-if answer =="16":
-    print("Licence plate you have entered is for Bursa.")
-elif answer =="17":
-    print("Licence plate you have entered is for Çanakkale.")
-elif answer =="34":
-    print("Licence plate you have entered is for Istanbul.")
-else:
-    print("Unknown licence plate.")
-    
-print(question)
-answer = input()
+question = "Please enter a license plate:"
+licensePlate = int(input(question))
 
-if answer =="17":
-    print("Licence plate you have entered is for Çanakkale.")
-elif answer =="16":
-    print("Licence plate you have entered is for Bursa.")
-elif answer =="34":
-    print("Licence plate you have entered is for Istanbul.")
+if licensePlate == 16:
+    print("License plate you have entered is for Bursa")
+elif licensePlate == 17:
+    print("License plate you have entered is for Çanakkale")
+elif licensePlate == 34:
+    print("License plate you have entered is for Istanbul")
 else:
-    print("Unknown licence plate.")
-    
-print(question)
-answer = input()
+    print("Unknown license plate")
 
-if answer =="34":
-    print("Licence plate you have entered is for Istanbul.")
-elif answer =="16":
-    print("Licence plate you have entered is for Bursa.")
-elif answer =="17":
-    print("Licence plate you have entered is for Çanakkale.")
+licensePlate = int(input(question))
+if licensePlate == 16:
+    print("License plate you have entered is for Bursa")
+elif licensePlate == 17:
+    print("License plate you have entered is for Çanakkale")
+elif licensePlate == 34:
+    print("License plate you have entered is for Istanbul")
 else:
-    print("Unknown licence plate.")
+    print("Unknown license plate")
+
+licensePlate = int(input(question))
+if licensePlate == 16:
+    print("License plate you have entered is for Bursa")
+elif licensePlate == 17:
+    print("License plate you have entered is for Çanakkale")
+elif licensePlate == 34:
+    print("License plate you have entered is for Istanbul")
+else:
+    print("Unknown license plate")
 
 #Expected Output
 #Please enter a licence plate:
