@@ -1,3 +1,4 @@
+#Dosya İşlemleri
 dosya = open("python.txt",encoding = "utf-8")
 print(dosya.read())
 dosya.close()
