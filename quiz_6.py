@@ -15,3 +15,10 @@ b = int(input("Please enter an integer value for b:"))
 c = int(input("Please enter an integer value for c:"))
 
 ucgenmi(a,b,c)
+
+"""Expected Output
+Please enter an integer value for a:3
+Please enter an integer value for b:4
+Please enter an integer value for c:5
+Values you have entered does represent a triangle.
+"""
