@@ -1,3 +1,4 @@
+#Fonksiyonlar 2
 def ortalama(ders_sayisi):
     toplam = 0
     for i in range(ders_sayisi):
